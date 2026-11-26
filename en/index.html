@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Paganini — Web & Front-End Developer</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Shared CSS from root folder -->
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <a href="#" class="logo">PAGANINI<span>.</span></a>
+
+        <nav class="nav-links">
+            <a href="#projects">Projects</a>
+            <a href="#process">Process</a>
+            <a href="#about">About & Skills</a>
+        </nav>
+
+        <div class="nav-actions">
+            <div class="lang-switch" aria-label="Language switcher">
+                <a href="../">PT</a>
+                <span>/</span>
+                <a href="#" class="active">EN</a>
+            </div>
+            <a href="#contact" class="btn-nav">
+                Start a Project <span class="material-icons">north_east</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-bg-text" aria-hidden="true">PORTFOLIO</div>
+
+        <div class="hero-grid">
+            <div class="hero-left">
+                <span class="hero-intro">Hi, I'm</span>
+                <h1>PEDRO<br><span>PAGANINI</span></h1>
+                <p class="hero-role">WEB & FRONT-END DEVELOPER</p>
+                <p class="hero-desc">
+                    I build fast, responsive, custom-coded websites for businesses and local brands. Clean architecture, mobile-first design, and direct integration with your sales channels.
+                </p>
+
+                <div class="hero-cta-group">
+                    <a href="#projects" class="btn-primary">View Projects</a>
+                    <div class="availability">
+                        <span class="pulse-dot"></span>
+                        <span>AVAILABLE FOR FREELANCE • WORLDWIDE</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-right">
+                <div class="dev-card">
+                    <div class="dev-card-header">
+                        <div class="window-dots">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <span class="dev-tag">pedro.config.js</span>
+                    </div>
+
+                    <div class="dev-code">
+                        <p><span class="c-red">const</span> developer = {</p>
+                        <p class="indent">name: <span class="c-light">'Pedro Paganini'</span>,</p>
+                        <p class="indent">focus: <span class="c-light">'Business & Landing Pages'</span>,</p>
+                        <p class="indent">stack: [<span class="c-light">'HTML'</span>, <span class="c-light">'CSS'</span>, <span class="c-light">'JS'</span>, <span class="c-light">'Python'</span>],</p>
+                        <p class="indent">location: <span class="c-light">'Brazil (UTC-3) • Remote'</span></p>
+                        <p>};</p>
+                    </div>
+
+                    <div class="dev-metrics">
+                        <div class="metric">
+                            <strong>100%</strong>
+                            <span>Mobile First</span>
+                        </div>
+                        <div class="metric">
+                            <strong>SEO</strong>
+                            <span>Optimized</span>
+                        </div>
+                        <div class="metric">
+                            <strong>FAST</strong>
+                            <span>Clean Delivery</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Selected Projects -->
+    <section id="projects" class="projects-section">
+        <div class="section-top">
+            <div>
+                <span class="section-tag">RECENT WORK</span>
+                <h2>SELECTED <span>PROJECTS</span></h2>
+            </div>
+            <a href="https://github.com/Peviaan" target="_blank" rel="noopener" class="view-all">
+                View GitHub (@Peviaan) <span class="material-icons">east</span>
+            </a>
+        </div>
+
+        <div class="projects-grid">
+            <!-- Project 01 (Já apontando para a futura pasta /en da Advocacia) -->
+            <a href="https://site-advocacia-vasconcelos.vercel.app/en" target="_blank" rel="noopener" class="project-card">
+                <div class="project-thumb thumb-adv">
+                    <div class="thumb-mockup">
+                        <span class="mockup-tag">CORPORATE • EDITORIAL</span>
+                        <h3>Vasconcelos Law Firm</h3>
+                        <p>High-contrast editorial design, interactive practice-area carousel, and smart client intake.</p>
+                    </div>
+                </div>
+                <div class="project-meta">
+                    <span class="project-num">01</span>
+                    <div class="project-title">
+                        <h4>VASCONCELOS LAW FIRM</h4>
+                        <p>Legal Landing Page • HTML, CSS & JS</p>
+                    </div>
+                    <span class="material-icons arrow-icon">east</span>
+                </div>
+            </a>
+
+            <!-- Project 02 (Troque pelo seu link real da Pizzaria Roma com /en no final) -->
+            <a href="https://pizzaria-roma-opal.vercel.app/en" target="_blank" rel="noopener" class="project-card">
+                <div class="project-thumb thumb-pizza">
+                    <div class="thumb-mockup">
+                        <span class="mockup-tag">FOOD & DELIVERY • INTERACTIVE</span>
+                        <h3>Roma Pizzeria</h3>
+                        <p>Dark-mode digital menu with live category filters, slide-out cart drawer, and automated checkout.</p>
+                    </div>
+                </div>
+                <div class="project-meta">
+                    <span class="project-num">02</span>
+                    <div class="project-title">
+                        <h4>ROMA PIZZERIA</h4>
+                        <p>Digital Menu & JS Cart • Dark Mode</p>
+                    </div>
+                    <span class="material-icons arrow-icon">east</span>
+                </div>
+            </a>
+
+            <!-- Project 03 -->
+            <a href="https://github.com/Peviaan" target="_blank" rel="noopener" class="project-card">
+                <div class="project-thumb thumb-api">
+                    <div class="thumb-mockup">
+                        <span class="mockup-tag">R&D & BACK-END • UNIVERSITY</span>
+                        <h3>Tax Classification API</h3>
+                        <p>Automated tax calculation and product NCM classification powered by NLP and Machine Learning.</p>
+                    </div>
+                </div>
+                <div class="project-meta">
+                    <span class="project-num">03</span>
+                    <div class="project-title">
+                        <h4>TAX & NCM API</h4>
+                        <p>Python, SQLite & Machine Learning</p>
+                    </div>
+                    <span class="material-icons arrow-icon">east</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Work Process -->
+    <section id="process" class="process-section">
+        <div class="section-top">
+            <div>
+                <span class="section-tag">HOW IT WORKS</span>
+                <h2>WORK <span>PROCESS</span></h2>
+            </div>
+            <p class="section-subtitle">From initial alignment to live deployment, with clear milestones at every step.</p>
+        </div>
+
+        <div class="process-grid">
+            <div class="process-card">
+                <span class="process-num">01</span>
+                <h3>DISCOVERY & SCOPE</h3>
+                <p>Understanding your business, target audience, and what the website needs to accomplish — bookings, orders, or authority.</p>
+            </div>
+
+            <div class="process-card">
+                <span class="process-num">02</span>
+                <h3>STRUCTURE & DESIGN</h3>
+                <p>Defining visual hierarchy, typography, and clear copy tailored for both desktop and mobile visitors.</p>
+            </div>
+
+            <div class="process-card">
+                <span class="process-num">03</span>
+                <h3>CODE & INTEGRATIONS</h3>
+                <p>Building the site from scratch with fast load times, responsive layouts, and direct contact or ordering flows.</p>
+            </div>
+
+            <div class="process-card">
+                <span class="process-num">04</span>
+                <h3>LAUNCH & HANDOVER</h3>
+                <p>Configuring domain, SSL security, technical SEO basics, and deploying the live site ready for clients.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About & Skills -->
+    <section id="about" class="about-section">
+        <div class="about-left">
+            <span class="section-tag">BACKGROUND</span>
+            <h2>ABOUT & <span>SKILLS</span></h2>
+            <p class="about-text">
+                I'm a <strong>Computer Science undergraduate (UNIP)</strong> and web developer focused on building fast, responsive, custom-coded websites for businesses and independent professionals.
+            </p>
+            <p class="about-text">
+                Alongside front-end development, I conduct applied research in <strong>Python and Machine Learning</strong>, developing automated tax classification APIs.
+            </p>
+
+            <div class="education-box">
+                <div class="edu-item">
+                    <div>
+                        <h4>B.S. in Computer Science</h4>
+                        <span>Universidade Paulista (UNIP)</span>
+                    </div>
+                    <span class="edu-year">In Progress</span>
+                </div>
+                <div class="edu-item">
+                    <div>
+                        <h4>Applied Tech Research (ITI) — Tax API & NLP</h4>
+                        <span>Python & Machine Learning</span>
+                    </div>
+                    <span class="edu-year">2026</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-right">
+            <span class="section-tag">TECH STACK & TOOLS</span>
+            <div class="skills-cloud">
+                <span class="skill-pill">Semantic HTML5</span>
+                <span class="skill-pill">CSS3 / Flexbox / Grid</span>
+                <span class="skill-pill">JavaScript (ES6+)</span>
+                <span class="skill-pill">Responsive Design</span>
+                <span class="skill-pill">UI/UX & Prototyping</span>
+                <span class="skill-pill">WhatsApp Integration</span>
+                <span class="skill-pill">Python</span>
+                <span class="skill-pill">Git & GitHub</span>
+                <span class="skill-pill">Vercel Deployment</span>
+                <span class="skill-pill">Technical SEO</span>
+            </div>
+
+            <!-- Global Availability Card -->
+            <div class="global-card">
+                <div class="global-header">
+                    <span class="material-icons">public</span>
+                    <span>LANGUAGES & AVAILABILITY</span>
+                </div>
+
+                <div class="global-list">
+                    <div class="global-row">
+                        <span class="global-label">Portuguese</span>
+                        <span class="global-value">Native</span>
+                    </div>
+                    <div class="global-row">
+                        <span class="global-label">English</span>
+                        <span class="global-value">Professional • Communication & Code</span>
+                    </div>
+                    <div class="global-row">
+                        <span class="global-label">Time Zone</span>
+                        <span class="global-value">UTC-3 • Aligned with US East & Europe</span>
+                    </div>
+                    <div class="global-row">
+                        <span class="global-label">Work Model</span>
+                        <span class="global-value highlight">100% Remote • Worldwide</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Footer -->
+    <footer id="contact" class="contact-footer">
+        <div class="contact-grid">
+            <div class="contact-left">
+                <span class="section-tag">CONTACT</span>
+                <h2>READY TO START <span>YOUR PROJECT?</span></h2>
+                <p>Available for freelance websites, landing pages, and digital menus worldwide. Send over your project details via email or WhatsApp for a direct quote.</p>
+
+                <div class="contact-actions">
+                    <a href="mailto:pedropaganini1302@gmail.com?subject=Website%20Project%20Inquiry" class="btn-primary">
+                        Send an Email
+                    </a>
+                    <a href="https://wa.me/5511976017607?text=Hi%20Pedro!%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20website%20project." target="_blank" rel="noopener" class="btn-outline">
+                        WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-links">
+                <a href="mailto:pedropaganini1302@gmail.com" class="contact-item">
+                    <span class="material-icons">mail</span>
+                    <div>
+                        <small>EMAIL</small>
+                        <strong>pedropaganini1302@gmail.com</strong>
+                    </div>
+                </a>
+
+                <a href="https://wa.me/5511976017607" target="_blank" rel="noopener" class="contact-item">
+                    <span class="material-icons">chat</span>
+                    <div>
+                        <small>WHATSAPP</small>
+                        <strong>Chat directly</strong>
+                    </div>
+                </a>
+
+                <a href="https://github.com/Peviaan" target="_blank" rel="noopener" class="contact-item">
+                    <span class="material-icons">code</span>
+                    <div>
+                        <small>GITHUB</small>
+                        <strong>github.com/Peviaan</strong>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <a href="#" class="logo">PAGANINI<span>.</span></a>
+            <p>São Paulo, Brazil • Remote Worldwide &nbsp;|&nbsp; &copy; 2026 Pedro Paganini</p>
+        </div>
+    </footer>
+
+</body>
+</html>

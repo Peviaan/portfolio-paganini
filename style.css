@@ -46,6 +46,44 @@ body {
     border-bottom: 1px solid var(--border-subtle);
 }
 
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.lang-switch {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background-color: var(--bg-surface);
+    border: 1px solid var(--border-subtle);
+    padding: 0.45rem 0.75rem;
+    border-radius: 50px;
+}
+
+.lang-switch a {
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.lang-switch a:hover,
+.lang-switch a:active {
+    color: var(--text-main);
+}
+
+.lang-switch a.active {
+    color: var(--accent);
+}
+
+.lang-switch span {
+    color: rgba(255, 255, 255, 0.2);
+}
+ 
 .logo {
     font-family: var(--font-display);
     font-size: 2rem;
@@ -818,5 +856,14 @@ a.contact-item:hover {
 
     .global-value {
         text-align: left;
+    }
+
+    .nav-actions {
+        gap: 0.6rem;
+    }
+
+    .btn-nav {
+        padding: 0.5rem 0.9rem;
+        font-size: 0.78rem;
     }
 }
